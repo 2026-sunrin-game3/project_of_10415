@@ -1,0 +1,88 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum MathType
+{
+    Increase,
+    Decrease,
+    Add,
+    Remove
+}
+
+public class EntityStat : MonoBehaviour
+{
+    Dictionary<string, float> baseValue = new();
+    Dictionary<string, float> resultValue = new();
+
+    public List<Buf> buffs = new();
+
+    public struct Buf
+    {
+        public string key;
+        public MathType mathType;
+        public float value;
+    }
+
+    struct StatValue
+    {
+        public string Key;
+        public float Value;
+    }
+    [SerializeField]
+    private List<StatValue> defaultStat = new()
+    {
+        new StatValue{ Key = "attackDamage", Value = 5 },
+        new StatValue{ Key = "defense", Value = 0 },
+        new StatValue{ Key = "increaseDamage", Value = 0 },
+        new StatValue{ Key = "critPer", Value = 3 },
+        new StatValue{ Key = "critMul", Value = 0 },
+        new StatValue{ Key = "hurtDamage", Value = 0 },
+        new StatValue{ Key = "atkSpeed", Value = 0 },
+        new StatValue{ Key = "moveSpeed", Value = 0 },
+    };
+
+
+    public float attackDamage, defense, increaseDamage;
+    public float critPer, critMul, hurtDamage, atkSpeed, moveSpeed;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        foreach (StatValue val in defaultStat)
+        {
+            baseValue[val.Key] = val.Value;
+            Calc(val.Key);
+        }
+    }
+    public float GetResultValue(string key)
+    {
+        return resultValue[key];
+    }
+
+    public float Calc(string key)
+    {
+        float value = baseValue[key];
+        float increase = 100;
+
+        foreach (Buf buf in bufs)
+        {
+            switch (buf.mathType)
+            {
+                case MathType.Increase:
+                    increase += buf.value;
+                    break;
+                case MathType.Decrease:
+                    increase -= buf.value;
+                    break;
+                case MathType.Add:
+                    value += buf.value;
+                    break;
+                case MathType.Remove:
+                    value -= buf.value;
+                    break;
+            }
+        }
+
+        return resultValue[key] = value * increase * 0.01f;
+    }
+}
