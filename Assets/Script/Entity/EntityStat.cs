@@ -14,7 +14,7 @@ public class EntityStat : MonoBehaviour
     Dictionary<string, float> baseValue = new();
     Dictionary<string, float> resultValue = new();
 
-    public List<Buf> buffs = new();
+    public List<Buf> bufs = new();
 
     public struct Buf
     {
@@ -29,7 +29,8 @@ public class EntityStat : MonoBehaviour
         public float Value;
     }
     [SerializeField]
-    private List<StatValue> defaultStat = new()
+
+    List<StatValue> defaultStat = new()
     {
         new StatValue{ Key = "attackDamage", Value = 5 },
         new StatValue{ Key = "defense", Value = 0 },
