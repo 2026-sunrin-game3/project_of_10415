@@ -86,6 +86,11 @@ public class EntityHealth : MonoBehaviour
             dmg *= 1 + (critMul / 100);
         }
 
+        dmg -= stat.GetResultValue("defense");
+
+        if (dmg < 0)
+            dmg = 0;
+
         health -= damage;
 
         if (health <= 0)

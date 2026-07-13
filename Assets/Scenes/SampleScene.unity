@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 1128995300}
   - component: {fileID: 1128995299}
   - component: {fileID: 1128995298}
+  - component: {fileID: 1128995306}
   - component: {fileID: 1128995297}
   - component: {fileID: 1128995296}
   - component: {fileID: 1128995302}
@@ -578,7 +579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7e2361308a3fe4b9a8cd056805c9d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 3
   jumpPower: 12
   groundMask_:
     serializedVersion: 2
@@ -761,9 +761,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBattle
   health: {fileID: 0}
+  stat: {fileID: 0}
+  atkCool: 0
   defaultAttack:
     offset: {x: 0, y: 0}
-    size: {x: 3, y: 3}
+    size: {x: 2, y: 1}
     drawGizmos: 1
   enemyMask:
     serializedVersion: 2
@@ -783,6 +785,43 @@ MonoBehaviour:
   health: 0
   maxHealth: 280
   isDeath: 0
+--- !u!114 &1128995306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128995295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b10831f8e9454fbad9ff5bd47ab38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityStat
+  defaultStat:
+  - Key: attackDamage
+    Value: 5
+  - Key: defense
+    Value: 0
+  - Key: increaseDamage
+    Value: 0
+  - Key: critPer
+    Value: 3
+  - Key: critMul
+    Value: 0
+  - Key: hurtDamage
+    Value: 0
+  - Key: atkSpeed
+    Value: 0
+  - Key: moveSpeed
+    Value: 8
+  attackDamage: 0
+  defense: 0
+  increaseDamage: 0
+  critPer: 0
+  critMul: 0
+  hurtDamage: 0
+  atkSpeed: 0
+  moveSpeed: 0
 --- !u!1 &1994315337
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,8 +833,10 @@ GameObject:
   - component: {fileID: 1994315340}
   - component: {fileID: 1994315339}
   - component: {fileID: 1994315338}
+  - component: {fileID: 1994315343}
   - component: {fileID: 1994315341}
   - component: {fileID: 1994315342}
+  - component: {fileID: 1994315344}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
@@ -919,7 +960,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1994315342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -966,6 +1007,73 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1994315343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994315337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b10831f8e9454fbad9ff5bd47ab38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityStat
+  defaultStat:
+  - Key: attackDamage
+    Value: 5
+  - Key: defense
+    Value: 0
+  - Key: increaseDamage
+    Value: 0
+  - Key: critPer
+    Value: 3
+  - Key: critMul
+    Value: 10
+  - Key: hurtDamage
+    Value: 5
+  - Key: atkSpeed
+    Value: 5
+  - Key: moveSpeed
+    Value: 5
+  attackDamage: 5
+  defense: 0
+  increaseDamage: 0
+  critPer: 0
+  critMul: 0
+  hurtDamage: 0
+  atkSpeed: 0
+  moveSpeed: 0
+--- !u!114 &1994315344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994315337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4269cfb4276e1d449accc678b91d45db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Boss
+  health: {fileID: 0}
+  stat: {fileID: 0}
+  rigid: {fileID: 0}
+  atkCool: 0
+  direction: 0
+  groundMask_:
+    serializedVersion: 2
+    m_Bits: 128
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 8
+  groundDist_: 0.5
+  player: {fileID: 1128995296}
+  attackDist: 1.5
+  defaultAttack:
+    offset: {x: 0, y: 0}
+    size: {x: 2, y: 1}
+    drawGizmos: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
