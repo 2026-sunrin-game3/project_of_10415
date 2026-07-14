@@ -7,12 +7,15 @@ public class PlayerInput : MonoBehaviour
 
     PlayerBattle battle;
 
+    PlayerAnimater animator;
+
     public Vector2 axis;
 
     void Awake()
     {
         movement = GetComponent<PlayerMovement>();
         battle = GetComponent<PlayerBattle>();
+        animator = GetComponent<PlayerAnimater>();
     }
 
     public void OnMove(InputValue value)
@@ -20,6 +23,8 @@ public class PlayerInput : MonoBehaviour
         Vector2 axis_ = value.Get<Vector2>();
 
         axis = new Vector2(axis_.x, 0);
+
+        animator.Play("Move");
     }
 
     public bool HasAxis()
@@ -29,11 +34,15 @@ public class PlayerInput : MonoBehaviour
 
     public void OnJump()
     {
-        movement.Jump();
+        if (movement.Jump())
+        {
+            animator.Play("Jump");
+        }
     }
 
     public void OnAttack()
     {
         battle.Attack();
+        animator.Play("Attack 1");
     }
 }

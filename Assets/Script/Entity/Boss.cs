@@ -19,4 +19,9 @@ public class Boss : Enemy
             Chase(player.transform);
         }
     }
+
+    protected override void DrawGizmos()
+    {
+        Draw(defaultAttack);
+    }
 }
