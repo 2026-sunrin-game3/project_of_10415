@@ -586,7 +586,7 @@ MonoBehaviour:
   groundMask_:
     serializedVersion: 2
     m_Bits: 128
-  groundDist_: 0.36
+  groundDist_: 0.35
 --- !u!114 &1128995299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,7 +649,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 45cfc88ee74fa9543926bce5b2c290e5, type: 3}
+  m_Sprite: {fileID: 2664473380204280600, guid: 0bac2e84adc6a96468f85097fc6676c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -670,7 +670,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.25, y: -0.48605, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -739,17 +739,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.03208211, y: 0.333036}
+  m_Offset: {x: 0.0320822, y: 1.3121446}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.36968112, y: 0.666072}
+  m_Size: {x: 1.3573632, y: 2.6207097}
   m_EdgeRadius: 0
 --- !u!114 &1128995304
 MonoBehaviour:
@@ -767,8 +767,8 @@ MonoBehaviour:
   stat: {fileID: 0}
   atkCool: 0
   defaultAttack:
-    offset: {x: 1.05, y: 1.34}
-    size: {x: 3.36, y: 2.67}
+    offset: {x: 1.6, y: 1.3}
+    size: {x: 4.5, y: 2.6}
     drawGizmos: 1
   enemyMask:
     serializedVersion: 2
@@ -881,7 +881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1994315338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,7 +1105,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 8
-  groundDist_: 0.5
+  groundDist_: 0.74
   player: {fileID: 1128995296}
   attackDist: 1.5
   defaultAttack:
