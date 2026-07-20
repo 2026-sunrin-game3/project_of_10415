@@ -73,6 +73,8 @@ public class EntityStat : MonoBehaviour
 
         foreach (Buf buf in bufs)
         {
+            if (buf.key != key)
+                continue;
             switch (buf.mathType)
             {
                 case MathType.Increase:
