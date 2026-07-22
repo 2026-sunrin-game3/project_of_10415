@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 
@@ -20,10 +22,13 @@ public class PlayerBattle : MonoBehaviour
     
 
     public AttackRange defaultAttack;
+    [SerializeField] GameObject electricEffectPrefab;
     [SerializeField] LayerMask enemyMask;
     [SerializeField] float dashPower, dashTime;
 
     public bool inDash;
+
+    [SerializeField] Slider healthbar;
 
     void Start()
     {
@@ -47,6 +52,7 @@ public class PlayerBattle : MonoBehaviour
 
     void Update()
     {
+        healthbar.value = health.health / health.maxHealth;
         if (atkCool > 0)
         {
             atkCool -= Time.deltaTime * (1 + stat.GetResultValue("atkSpeed") / 100);
@@ -76,6 +82,10 @@ public class PlayerBattle : MonoBehaviour
             return;
         }
         atkCool = 0.5f;
+
+        GameObject effect = Instantiate(electricEffectPrefab, (Vector2)transform.position + defaultAttack.offset, Quaternion.identity);
+        Destroy(effect, 1f);
+
         var col = Physics2D.OverlapBoxAll((Vector2)transform.position + defaultAttack.offset, defaultAttack.size, 0, enemyMask);
 
         foreach (var target in col)
