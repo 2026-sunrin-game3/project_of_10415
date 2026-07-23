@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 4b8c20677969d4d4c8112672edeecee2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1901871927204222701
+    second: BattleUI_CreatureBattle_3_0
+  - first:
+      213: 967066545875090638
+    second: BattleUI_CreatureBattle_3_1
+  - first:
+      213: 2599604939897873890
+    second: BattleUI_CreatureBattle_3_2
+  - first:
+      213: 5644849450364815617
+    second: BattleUI_CreatureBattle_3_3
+  - first:
+      213: 7040342747426580048
+    second: BattleUI_CreatureBattle_3_4
+  - first:
+      213: -8805831255553857837
+    second: BattleUI_CreatureBattle_3_5
+  - first:
+      213: -2507227474738318854
+    second: BattleUI_CreatureBattle_3_6
+  - first:
+      213: -4516786487620315989
+    second: BattleUI_CreatureBattle_3_7
+  - first:
+      213: -2274913197712933626
+    second: BattleUI_CreatureBattle_3_8
+  - first:
+      213: -5476814213246752064
+    second: BattleUI_CreatureBattle_3_9
+  - first:
+      213: 3619318946247185957
+    second: BattleUI_CreatureBattle_3_10
+  - first:
+      213: 2890196906236731175
+    second: BattleUI_CreatureBattle_3_11
+  - first:
+      213: -1082879393560724810
+    second: BattleUI_CreatureBattle_3_12
+  - first:
+      213: 3953314049086645671
+    second: BattleUI_CreatureBattle_3_13
+  - first:
+      213: 6553639147693573541
+    second: BattleUI_CreatureBattle_3_14
+  - first:
+      213: -961229015432973007
+    second: BattleUI_CreatureBattle_3_15
+  - first:
+      213: -4064262621861563995
+    second: BattleUI_CreatureBattle_3_16
+  - first:
+      213: 3995460620574261449
+    second: BattleUI_CreatureBattle_3_17
+  - first:
+      213: -6520683665734985308
+    second: BattleUI_CreatureBattle_3_18
+  - first:
+      213: -1105994171603764458
+    second: BattleUI_CreatureBattle_3_19
+  - first:
+      213: -7692691855303371496
+    second: BattleUI_CreatureBattle_3_20
+  - first:
+      213: 1545689098862894320
+    second: BattleUI_CreatureBattle_3_21
+  - first:
+      213: 4960469144213468689
+    second: BattleUI_CreatureBattle_3_22
+  - first:
+      213: -1821725555858263166
+    second: BattleUI_CreatureBattle_3_23
+  - first:
+      213: -5865163947597428393
+    second: BattleUI_CreatureBattle_3_24
+  - first:
+      213: -4703959754519947215
+    second: BattleUI_CreatureBattle_3_25
+  - first:
+      213: 1292328246384581602
+    second: BattleUI_CreatureBattle_3_26
+  - first:
+      213: 1269443830843069185
+    second: BattleUI_CreatureBattle_3_27
+  - first:
+      213: 5379222323844699182
+    second: BattleUI_CreatureBattle_3_28
+  - first:
+      213: -6189779145601644389
+    second: BattleUI_CreatureBattle_3_29
+  - first:
+      213: 5627028770916681487
+    second: BattleUI_CreatureBattle_3_30
+  - first:
+      213: 4479220315796533599
+    second: BattleUI_CreatureBattle_3_31
+  - first:
+      213: 8063331290929453542
+    second: BattleUI_CreatureBattle_3_32
+  - first:
+      213: 3943293913209160687
+    second: BattleUI_CreatureBattle_3_33
+  - first:
+      213: -919707561193462827
+    second: BattleUI_CreatureBattle_3_34
+  - first:
+      213: -2922538991469025995
+    second: BattleUI_CreatureBattle_3_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 914
+        width: 99
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de69b45f07ec46a10800000000000000
+      internalID: 1901871927204222701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 951
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc7c0556e5bb6d00800000000000000
+      internalID: 967066545875090638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 937
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a6f66be6a31420800000000000000
+      internalID: 2599604939897873890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 938
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109cd8bdaa8865e40800000000000000
+      internalID: 5644849450364815617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 885
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056eb5d6d6254b160800000000000000
+      internalID: 7040342747426580048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 918
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d62eacd0276bc580800000000000000
+      internalID: -8805831255553857837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 920
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af17f1545e9843dd0800000000000000
+      internalID: -2507227474738318854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 920
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba45b17de962151c0800000000000000
+      internalID: -4516786487620315989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_8
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 919
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60df87bef72ed60e0800000000000000
+      internalID: -2274913197712933626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 896
+        width: 131
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caed9e8d727ef3b0800000000000000
+      internalID: -5476814213246752064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 891
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52697e7d7676a3230800000000000000
+      internalID: 3619318946247185957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 872
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f5c27f5ca0c1820800000000000000
+      internalID: 2890196906236731175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 889
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baf83ccde6d8f0f0800000000000000
+      internalID: -1082879393560724810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_13
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 897
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5ee5d9e2efcd630800000000000000
+      internalID: 3953314049086645671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 886
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a58e58051433fa50800000000000000
+      internalID: 6553639147693573541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_15
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 872
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135b153ad4709a2f0800000000000000
+      internalID: -961229015432973007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_16
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 851
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a13b06cda6d897c0800000000000000
+      internalID: -4064262621861563995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 867
+        width: 153
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0046bf34ab27730800000000000000
+      internalID: 3995460620574261449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 857
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a99c2b01c0e185a0800000000000000
+      internalID: -6520683665734985308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 875
+        width: 93
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bb7e52928b6a0f0800000000000000
+      internalID: -1105994171603764458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_20
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 872
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8151a16e3811e3590800000000000000
+      internalID: -7692691855303371496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_21
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 874
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc9ae6cb04637510800000000000000
+      internalID: 1545689098862894320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 829
+        width: 153
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116312ca76027d440800000000000000
+      internalID: 4960469144213468689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 859
+        width: 87
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28331d4424ee7b6e0800000000000000
+      internalID: -1821725555858263166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 754
+        width: 312
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7590702f670ca9ea0800000000000000
+      internalID: -5865163947597428393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 797
+        width: 96
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138da12a68d28beb0800000000000000
+      internalID: -4703959754519947215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_26
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 798
+        width: 95
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebd4fa61b54fe110800000000000000
+      internalID: 1292328246384581602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 663
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10356b73078fd9110800000000000000
+      internalID: 1269443830843069185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 614
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e245d940436d6aa40800000000000000
+      internalID: 5379222323844699182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_29
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 746
+        width: 95
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b980b4479ac791aa0800000000000000
+      internalID: -6189779145601644389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 627
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0744679ad8371e40800000000000000
+      internalID: 5627028770916681487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_31
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 696
+        width: 95
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51f3c13523692e30800000000000000
+      internalID: 4479220315796533599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 610
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e954267615b6ef60800000000000000
+      internalID: 8063331290929453542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_33
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 643
+        width: 95
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3cacdebe469b630800000000000000
+      internalID: 3943293913209160687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_34
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 595
+        width: 95
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3a2dd88da8c33f0800000000000000
+      internalID: -919707561193462827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleUI_CreatureBattle_3_35
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 547
+        width: 95
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535a243854e0177d0800000000000000
+      internalID: -2922538991469025995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f663ce1ff2057a4d871f980da8ef568
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BattleUI_CreatureBattle_3_0: 1901871927204222701
+      BattleUI_CreatureBattle_3_1: 967066545875090638
+      BattleUI_CreatureBattle_3_10: 3619318946247185957
+      BattleUI_CreatureBattle_3_11: 2890196906236731175
+      BattleUI_CreatureBattle_3_12: -1082879393560724810
+      BattleUI_CreatureBattle_3_13: 3953314049086645671
+      BattleUI_CreatureBattle_3_14: 6553639147693573541
+      BattleUI_CreatureBattle_3_15: -961229015432973007
+      BattleUI_CreatureBattle_3_16: -4064262621861563995
+      BattleUI_CreatureBattle_3_17: 3995460620574261449
+      BattleUI_CreatureBattle_3_18: -6520683665734985308
+      BattleUI_CreatureBattle_3_19: -1105994171603764458
+      BattleUI_CreatureBattle_3_2: 2599604939897873890
+      BattleUI_CreatureBattle_3_20: -7692691855303371496
+      BattleUI_CreatureBattle_3_21: 1545689098862894320
+      BattleUI_CreatureBattle_3_22: 4960469144213468689
+      BattleUI_CreatureBattle_3_23: -1821725555858263166
+      BattleUI_CreatureBattle_3_24: -5865163947597428393
+      BattleUI_CreatureBattle_3_25: -4703959754519947215
+      BattleUI_CreatureBattle_3_26: 1292328246384581602
+      BattleUI_CreatureBattle_3_27: 1269443830843069185
+      BattleUI_CreatureBattle_3_28: 5379222323844699182
+      BattleUI_CreatureBattle_3_29: -6189779145601644389
+      BattleUI_CreatureBattle_3_3: 5644849450364815617
+      BattleUI_CreatureBattle_3_30: 5627028770916681487
+      BattleUI_CreatureBattle_3_31: 4479220315796533599
+      BattleUI_CreatureBattle_3_32: 8063331290929453542
+      BattleUI_CreatureBattle_3_33: 3943293913209160687
+      BattleUI_CreatureBattle_3_34: -919707561193462827
+      BattleUI_CreatureBattle_3_35: -2922538991469025995
+      BattleUI_CreatureBattle_3_4: 7040342747426580048
+      BattleUI_CreatureBattle_3_5: -8805831255553857837
+      BattleUI_CreatureBattle_3_6: -2507227474738318854
+      BattleUI_CreatureBattle_3_7: -4516786487620315989
+      BattleUI_CreatureBattle_3_8: -2274913197712933626
+      BattleUI_CreatureBattle_3_9: -5476814213246752064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

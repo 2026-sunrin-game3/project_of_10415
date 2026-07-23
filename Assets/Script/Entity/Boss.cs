@@ -19,8 +19,13 @@ public class Boss : Enemy
     public float jumpPower = 7f;
     public float fallSpeed = 25f;
     public float jumpCoolTime = 6f;
+    public float landingRecoveryTime = 1f;   // 착지 후 바닥에 머무는 시간
     [SerializeField] AttackRange jumpAttack;
     float jumpCool;
+
+
+    [SerializeField] GameObject deathEffectPrefab;
+    [SerializeField] Sprite corpseSprite;
 
     public float retreatTime = 0.6f;
     float retreatTimer;
@@ -122,6 +127,9 @@ public class Boss : Enemy
         }
 
         Attack(0f, jumpAttack, transform.position);
+
+        yield return new WaitForSeconds(landingRecoveryTime);
+
         inPattern = false;
     }
 
@@ -130,5 +138,29 @@ public class Boss : Enemy
         Draw(defaultAttack);
         Draw(dashAttack);
         Draw(jumpAttack);
+    }
+
+    protected override void OnDeath(EntityHealth.Context ctx)
+    {
+        Vector3 deathPosition = new Vector3(-5.25f, transform.position.y, transform.position.z);
+
+        GameObject effect = Instantiate(deathEffectPrefab, deathPosition, Quaternion.identity);
+        Destroy(effect, 2f);
+
+        GameObject corpse = new GameObject("BossCorpse");
+        corpse.transform.position = deathPosition;
+        corpse.transform.localScale = transform.localScale;
+
+        SpriteRenderer corpseSr = corpse.AddComponent<SpriteRenderer>();
+        corpseSr.sprite = corpseSprite;
+
+        SpriteRenderer originalSr = GetComponent<SpriteRenderer>();
+        if (originalSr != null)
+        {
+            corpseSr.sortingLayerID = originalSr.sortingLayerID;
+            corpseSr.sortingOrder = originalSr.sortingOrder;
+        }
+
+        Destroy(gameObject);
     }
 }

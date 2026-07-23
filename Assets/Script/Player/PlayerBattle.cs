@@ -28,6 +28,10 @@ public class PlayerBattle : MonoBehaviour
 
     public bool inDash;
 
+    public float skill1Cool;
+    public float skill1Duration = 5f;
+    public float skill1CoolTime = 10f;
+
     [SerializeField] Slider healthbar;
 
     void Start()
@@ -48,7 +52,7 @@ public class PlayerBattle : MonoBehaviour
             return;
         indicator.IndicateDamage(ctx.damage, transform.position + new Vector3(0, 1), Color.white);
     }
-    
+
 
     void Update()
     {
@@ -56,6 +60,10 @@ public class PlayerBattle : MonoBehaviour
         if (atkCool > 0)
         {
             atkCool -= Time.deltaTime * (1 + stat.GetResultValue("atkSpeed") / 100);
+        }
+        if (skill1Cool > 0)
+        {
+            skill1Cool -= Time.deltaTime;
         }
     }
 
@@ -82,10 +90,6 @@ public class PlayerBattle : MonoBehaviour
             return;
         }
         atkCool = 0.5f;
-
-        GameObject effect = Instantiate(electricEffectPrefab, (Vector2)transform.position + defaultAttack.offset, Quaternion.identity);
-        Destroy(effect, 1f);
-
         var col = Physics2D.OverlapBoxAll((Vector2)transform.position + defaultAttack.offset, defaultAttack.size, 0, enemyMask);
 
         foreach (var target in col)
@@ -94,12 +98,21 @@ public class PlayerBattle : MonoBehaviour
             if (hp != null)
             {
                 hp.GetDamage(stat.GetResultValue("attackDamage"), health);
+
+                GameObject effect = Instantiate(electricEffectPrefab, target.transform.position, Quaternion.identity);
+                effect.transform.SetParent(target.transform, true);
+                Destroy(effect, 1f);
             }
         }
     }
 
     public void Skill1()
     {
+        if (skill1Cool > 0)
+        {
+            return;
+        }
+        skill1Cool = skill1CoolTime;
         StartCoroutine(skill1_());
     }
     IEnumerator skill1_()
@@ -121,7 +134,7 @@ public class PlayerBattle : MonoBehaviour
         stat.Calc("attackDamage");
         stat.Calc("atkSpeed");
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(skill1Duration);
 
         stat.bufs.Remove(atkBuf);
         stat.bufs.Remove(atkSpeedBuf);

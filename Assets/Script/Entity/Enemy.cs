@@ -24,7 +24,7 @@ public abstract class Enemy : MonoBehaviour
         health.OnDeath(OnDeath);
     }
 
-    void OnDeath(EntityHealth.Context ctx)
+    protected virtual void OnDeath(EntityHealth.Context ctx)
     {
         Destroy(gameObject);
     }
